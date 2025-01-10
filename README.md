@@ -11,18 +11,19 @@ logging.level.org.springframework=INFO
 logging.file.name=application.log
 
 ------------------------------------------------------------------------------------------------------
-**Service Layers**
+**Service Layers**:
 User Service Layer: Interacts with Api requests and responses.
 
-**Control Layer** 
+**Control Layer** :
 Responsible for handling user requests and responses.
 
-**Instructions**
+**Instructions**:
 1.Clone the repository.
 
 2.Create application.properties as described in the configuration section.
 
 3.Run the application.
+
 ------------------------------------------------------------------------------------------------------
-**Tools**
+**Tools**:
 Use tools like **Postman** for easier access to the application.
