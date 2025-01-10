@@ -1,23 +1,23 @@
-**Application Overview**
+# Application Overview
 This application uses SpringBoot and ExchangeRate-API to fetch real-time exchange rates of currencies.
 -----------------------------------------------------------------------------------------------------
-**Configuration**
+## Configuration
 Create a file at src/main/resources/application.properties with the following content:
-
+```
 spring.application.name=exchange
 server.port=8080
 exchangerate.api.key=api_key
 logging.level.org.springframework=INFO
 logging.file.name=application.log
-
+```
 ------------------------------------------------------------------------------------------------------
-**Service Layers**:
+### Service Layers:
 User Service Layer: Interacts with Api requests and responses.
 
-**Control Layer** :
+### Control Layer :
 Responsible for handling user requests and responses.
 
-**Instructions**:
+## Instructions:
 1.Clone the repository.
 
 2.Create application.properties as described in the configuration section.
@@ -25,5 +25,5 @@ Responsible for handling user requests and responses.
 3.Run the application.
 
 ------------------------------------------------------------------------------------------------------
-**Tools**:
+## Tools:
 Use tools like **Postman** for easier access to the application.
